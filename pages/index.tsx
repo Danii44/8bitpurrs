@@ -2,9 +2,9 @@ import React, { Suspense } from "react";
 import Head from 'next/head';
 import dynamic from "next/dynamic";
 const DynamicMain = dynamic(() => import('../src/main'), {
-  suspense: true,
   ssr: false
-})
+});
+
 
 const IndexPage = ({}) => {
   return (
