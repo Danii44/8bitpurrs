@@ -1,6 +1,6 @@
 [build]
-  command = "npm ci --legacy-peer-deps && npm run build"
+  command = "npm run build"
   publish = "dist"
 
 [context.production.environment]
-  NODE_VERSION = "18.2.0"
+  NODE_VERSION = "17.0.2"
