@@ -1,0 +1,6 @@
+[build]
+  command = "npm install --legacy-peer-deps && npm run build"
+  publish = "dist"  # Change this to your actual build output folder
+
+[context.production.environment]
+  NODE_VERSION = "17"  # Or whichever Node version you want Netlify to use
